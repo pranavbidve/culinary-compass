@@ -11,6 +11,15 @@ Creating a restaurant discovery system using content-based filtering, collaborat
 * Extracted the 5,000 most frequent words from all tags combined using CountVectorizer.
 * Calculated vector distances using cosine similarity to address limitations of high-dimensional Euclidean distance.
 
+# Model Description
+
+![Architecture]()
+
+* Users provide feedback on the Zomato website, including ratings, liked cuisines, suggested improvements, and location.
+* Feedback from all users is compiled into a dataset.
+* The dataset is used to train a machine learning model.
+* The trained model employs collaborative filtering to make recommendations for new users based on similar user preferences.
+
 
 
 
