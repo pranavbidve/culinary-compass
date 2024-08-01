@@ -1,4 +1,4 @@
-# Personalized Dining Navigator
+# Culinary Compass
 
 ## Enhancing food app suggestions with dynamic, behavior-based methods using advanced filtering and clustering techniques.
 
