@@ -25,11 +25,12 @@ Creating a restaurant discovery system using content-based filtering, collaborat
 # Demonstration
 
 ![Hi](https://github.com/Pranav-Bidve/culinary-compass/blob/main/img/welcome_page.png)
-![Hi]()
-![Hi]()
+![Hi](https://github.com/Pranav-Bidve/culinary-compass/blob/main/img/scroll.png)
 ![Hi](https://github.com/Pranav-Bidve/culinary-compass/blob/main/img/choice.png)
-![Hi]()
-![Hi]()
+![Hi](https://github.com/Pranav-Bidve/culinary-compass/blob/main/img/recomm_1.png)
+![Hi](https://github.com/Pranav-Bidve/culinary-compass/blob/main/img/recomm_2.png)
+![Hi]((https://github.com/Pranav-Bidve/culinary-compass/blob/main/img/recomm_3.png))
+
 
   
 
