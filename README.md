@@ -4,6 +4,8 @@
 
 Creating a restaurant discovery system using content-based filtering, collaborative filtering, and hierarchical clustering to adapt to evolving user preferences and locations, addressing limitations of current apps. This approach aims to offer more accurate and relevant dining options tailored to individual tastes and situational contexts.
 
+Dataset - https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants
+
 # Architecture
 
 ![Architecture](https://github.com/Pranav-Bidve/personalized-dining-navigator/blob/main/img/arch.png)
