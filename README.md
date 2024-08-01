@@ -22,6 +22,15 @@ Creating a restaurant discovery system using content-based filtering, collaborat
 * Extracted the 5,000 most frequent words from all tags combined using CountVectorizer.
 * Calculated vector distances using cosine similarity to address limitations of high-dimensional Euclidean distance.
 
+# Demonstration
+
+![Hi]()
+![Hi]()
+![Hi]()
+![Hi]()
+![Hi]()
+![Hi]()
+
   
 
 
