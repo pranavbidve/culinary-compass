@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recommendation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .jumbotron {
+            background-color: #343a40;
+            color: #fff;
+        }
+        .dropdown-menu {
+            background-color: #343a40;
+            color: #fff;
+        }
+        .dropdown-item:hover {
+            background-color: #495057;
+        }
+        .food-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Food Recommendation</h1>
+            <p class="lead">Select a restaurant from the dropdown menu below:</p>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Restaurant
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#" onclick="showFood('Restaurant 1')">Restaurant 1</a>
+                    <a class="dropdown-item" href="#" onclick="showFood('Restaurant 2')">Restaurant 2</a>
+                    <a class="dropdown-item" href="#" onclick="showFood('Restaurant 3')">Restaurant 3</a>                    
+                </div>
+            </div>
+        </div>
+        <div id="foodContent" class="row justify-content-center"></div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function showFood(restaurant) {
+            var foodContent = document.getElementById('foodContent');
+            foodContent.innerHTML = '';
+
+            var foodImages = {
+                'Restaurant 1': ['food1.jpg', 'food2.jpg', 'food3.jpg'],
+                'Restaurant 2': ['food4.jpg', 'food5.jpg', 'food6.jpg'],
+                'Restaurant 3': ['food7.jpg', 'food8.jpg', 'food9.jpg']
+                
+            };
+
+            var images = foodImages[restaurant];
+            images.forEach(function(image) {
+                var img = document.createElement('img');
+                img.src = 'images/' + image; 
+                img.classList.add('food-image');
+                foodContent.appendChild(img);
+            });
+        }
+    </script>
+</body>
+</html>
